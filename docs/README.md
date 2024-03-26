@@ -9,3 +9,5 @@
 - [Docsify 中文文档](https://docsify.js.org/#/zh-cn/)
 - [B站视频教程](https://www.bilibili.com/video/BV1kT4y1T7wY/)
 - [Wiki系列（二）：docsify部署及配置](https://sspai.com/post/60534)
+- [鱼’s Repository](https://note.gregueria.icu/#/README)
+- [Docsify | 搭建个人静态笔记库 | 小球飞鱼](https://mantyke.icu/posts/2021/docsify-build/)
