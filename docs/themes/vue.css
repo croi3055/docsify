@@ -98,7 +98,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: #1c180c;
-  font-family: Noto sans SC,Sans Pro,Helvetica Neue,Arial,sans-serif;
+  font-family: LXGW WenKai,Noto sans SC,Roboto Mono,Sans Pro,Helvetica Neue,Arial,sans-serif;
   font-size: 16px;
   letter-spacing: 0;
   margin: 0;
@@ -482,32 +482,16 @@ body.sticky .sidebar,body.sticky .sidebar-toggle {
 
 
 .markdown-section p.warn {
-  background:#f8f8f8;
+  background:#5846be1c;
   border-radius: 2px;
   padding: 1rem;
-  border-left: 4px solid #5846be;
+  border: 1px dashed #5846be;
   border-top-right-radius: 2px;
   margin: 2em 0;
   padding: 12px 24px 12px 30px;
   position: relative
 }
 
-.markdown-section p.warn:before {
-  background-color: #5846be;
-  border-radius: 100%;
-  color: #fff;
-  content: "✽";
-  font-family: Dosis,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  left: -12px;
-  line-height: 20px;
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  text-align: center;
-  top: 14px
-}
 
 .markdown-section ul.task-list>li {
   list-style-type: none
@@ -747,7 +731,7 @@ section.cover blockquote>p>a:hover {
 
 .sidebar ul li a {
   color: #3a434d;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   overflow: hidden;
   text-decoration: none;
@@ -784,7 +768,7 @@ section.cover blockquote>p>a:hover {
 .markdown-section a {
   color: #42b983;
   color: var(--theme-color,#42b983);
-  font-weight: 600
+  font-weight: 500
 }
 
 .markdown-section h1 {
@@ -820,31 +804,40 @@ section.cover blockquote>p>a:hover {
 }
 
 .markdown-section ol,.markdown-section p,.markdown-section ul {
-  line-height: 1.6rem;
-  word-spacing: .05rem
+  line-height: 2rem;
+  word-spacing: .05rem;
 }
 
 .markdown-section ol,.markdown-section ul {
-  padding-left: 1.5rem
+  padding-left: 1.5rem;
+  margin-bottom: 20px;
 }
+.markdown-section ol li,.markdown-section ul li{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.markdown-section ol ol,.markdown-section ul ul{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
 
 .markdown-section blockquote {
   border-left: 4px solid #74962e;
-  border-radius: 5px;
   color: #4a4a4a;
   margin: 0.5rem 0;
-  padding: 0.1rem 20px;
   font-size: 1em;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 2em;
   background: #f8f8f8;
-   }
-}
+  }
+
 
 .markdown-section blockquote p {
-  font-weight: 600;
-  margin-left: 0
+  font-weight: 400;
+  margin-left: 0;
+  padding:1em 10px 1em 20px
 }
 
 .markdown-section iframe {

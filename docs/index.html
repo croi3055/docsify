@@ -3,29 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/themes/vue.css">
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
-
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css" /> <!-- 霞鹜文楷 -->
+  <!-- 箭头样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <link rel="stylesheet" href="//unpkg.com/docsify-link-preview/src/style.css" />
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: "👻 💨", //快捷跳转回首页
+      name: "🦥 💨", //快捷跳转回首页
       repo: '',
       loadSidebar: true, //侧边栏
-      subMaxLevel: 3, //最大目录层级
+      subMaxLevel: 2, //最大目录层级
       routerMode: 'history', // 浏览器链接里不会出现 #
       themeColor: '#90a038', //主题色
       autoHeader: true, //和loadSidebar配合，自动为每个页面增加标题
       auto2top: true, //切换页面后自动跳转到页面顶部
+      hasCJKLanguage: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'},
+      copyCode: {
+        buttonText : 'Copy',
+        errorText  : 'Error',
+        successText: 'Copied'
+          },
+      'page-toc': {
+        tocMaxLevel: 3,
+        target: "h1, h2, h3, h4",
+            }, // 页面右侧toc
+      pagination: {
+        previousText: "Prev",
+        nextText: "Next",
+        crossChapter: true,
+        crossChapterText: true,
+        }, //底部导航  
       search: { //搜索配置，照抄的
           maxAge: 86400000,
           placeholder: '搜索',
@@ -33,7 +52,7 @@
           hideOtherSidebarContent: false,
           namespace: 'docsify-demo',
           depth: 6,
-    }
+            }
     }
     
   </script>
@@ -44,11 +63,16 @@
 
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 <!--全局搜索插件-->
-<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-<!--翻页插件-->
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 <!--代码段复制插件-->
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<!--翻页插件-->
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 <!--字数统计插件-->
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+<!-- 侧边栏目录折叠 -->
 <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
 <!--盘古之白-->
+<!--
+<script src="//unpkg.com/docsify-page-toc/dist/docsify-page-toc.js"></script>
+右侧浮动目录插件-->
