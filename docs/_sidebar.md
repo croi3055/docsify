@@ -26,3 +26,4 @@
     * [闭经记](books/bjj.md)
     * [厨房里的人类学家](books/cfldrlxj.md)
 * [Meow](meow)
+* [Notes](takecare.md)
