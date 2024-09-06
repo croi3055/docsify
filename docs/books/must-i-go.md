@@ -49,7 +49,7 @@ Chapter 4
 > Because there’s always a next time, Lilia said.
 > 
 > Nobody can guarantee that, he said. I could be run over by a streetcar the moment I step out of the hotel. You could fall in love tomorrow and be married by Saturday.
->
+> 
 > But things like that don’t happen to us.
 > 
 > **Why not? What makes you and me different from others?**
