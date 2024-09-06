@@ -2,7 +2,9 @@
 
 是用来保存摘抄、网络书签以及其它一些文本类记录的地方（看中了搜索功能
 
-博客站：[匣](https://lunasa.icu/)
+`Last Update at 2024/9/6`
+
+博客👉[匣](https://lunasa.icu/)
 
 **关于**
 - Start from 2024/3/26
