@@ -2,10 +2,8 @@
 <!-- docs/_sidebar.md -->
 
 * [About](/)
-* Links
-    * [Bookmarks](links/bookmarks)
-* [Books](booklist)
-* 摘抄
+* [List](list)
+* Books
     * []()
     * []()
     * []()
@@ -25,10 +23,11 @@
     * [黑暗的左手](books/the-left-hand-of-darkness.md)
     * [闭经记](books/bi-jing-ji.md)
     * [厨房里的人类学家](books/anthropologist-in-the-kitchen.md)
-* [Meow](meow)
-* [Health](takecare.md)
+* Subjects
+    * [猫猫在上](meow)
+    * [保护眼睛](eyes)
 * Kitchen
     * [厨房101](kitchen101.md)
-    * [好好吃饭](recipes.md)
-    * [甜品脑袋](sweets.md)
     * [烹饪小撇步](cookingtips.md)
+    * [菜谱](recipes.md)
+        * [🧁](sweets.md)
