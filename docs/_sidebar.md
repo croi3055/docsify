@@ -2,10 +2,7 @@
 <!-- docs/_sidebar.md -->
 
 * [About](/)
-* [List](list)
 * Excerpts
-    * []()
-    * []()
     * []()
     * [巴别塔](books/babel-an-arcane-history.md)
     * [Must I Go?](books/must-i-go.md)
@@ -24,9 +21,9 @@
     * [闭经记](books/bi-jing-ji.md)
     * [厨房里的人类学家](books/anthropologist-in-the-kitchen.md)
 * [Kitchen 101](kitchen101.md)
-    * [烹饪小撇步](cookingtips.md)
-* [Recipes]
+* Recipes
+    * [🧙🏻‍♀️ 烹饪小撇步](cookingtips.md)
     * [🧑🏻‍🍳 好好吃饭](recipes.md)
     * [🧁 甜食与烘焙](sweets.md)
-* [猫猫在上](meow)
+* [饲养小猫](meow)
 * [保护眼睛](eyes)
