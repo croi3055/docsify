@@ -3,7 +3,7 @@
 
 * [About](/)
 * [List](list)
-* Books
+* Excerpts
     * []()
     * []()
     * []()
@@ -23,11 +23,10 @@
     * [黑暗的左手](books/the-left-hand-of-darkness.md)
     * [闭经记](books/bi-jing-ji.md)
     * [厨房里的人类学家](books/anthropologist-in-the-kitchen.md)
-* Subjects
-    * [猫猫在上](meow)
-    * [保护眼睛](eyes)
-* Kitchen
-    * [厨房101](kitchen101.md)
+* [Kitchen 101](kitchen101.md)
     * [烹饪小撇步](cookingtips.md)
-    * [菜谱](recipes.md)
-        * [🧁](sweets.md)
+* [Recipes]
+    * [🧑🏻‍🍳 好好吃饭](recipes.md)
+    * [🧁 甜食与烘焙](sweets.md)
+* [猫猫在上](meow)
+* [保护眼睛](eyes)
