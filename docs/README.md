@@ -44,3 +44,10 @@
   ]
 }
 ```
+- 配置步骤（也许有问题但上次是这么操作的
+  1. 下载 node.js
+  2. 命令行：`(sudo) npm i docsify. cli -g`
+  3. `docsify init./docs`
+  4. 网页 git 新建仓库，点击 `set in desktop`，跳到 github desktop，点击 clone
+  5. 在 vercel import 仓库并 deploy
+  6. 用 vscode 打开编辑 index.html 和 readme
